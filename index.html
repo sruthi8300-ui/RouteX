@@ -12,45 +12,39 @@
 </head>
 <body>
   <header class="main-header">
-    <div class="container">
-      <a href="#" class="plane-logo">
-        <i class="fa-solid fa-plane"></i> Route<span>X</span>
-      </a>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="navbar-brand plane-logo" href="#">
+          <i class="fa-solid fa-plane"></i> Route<span>X</span>
+        </a>
   
-      <nav class="nav-menu desktop-menu">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Pages</a>
-        <a href="#">Contact</a>
-      </nav>
+        <button class="navbar-toggler border-0 shadow-none" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
   
-      <div class="help-box">
-        <div class="help-text">
-          <small>Need Help?</small>
-          <p>+91 98765 43210</p>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0-0">
+            ><a class="nav-link" href="#">Home</a></l/li>
+            ><a class="nav-link" href="#">About</a></l/li>
+            ><a class="nav-link" href="#">Services</a></l/li>
+            ><a class="nav-link" href="#">Pages</a></l/li>
+            ><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+  
+          <div class="help-box d-none d-lg-block">
+            <div class="help-text text-end">
+              <small>Need Help?</small>
+              <p>+91 98765 43210</p>
+            </div>
+          </div>
         </div>
       </div>
-  
-      <button class="navbar-toggler" id="menuToggle" aria-label="Toggle menu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  
-    <div class="mobile-menu" id="mobileMenu">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Pages</a>
-      <a href="#">Contact</a>
-  
-      <div class="help-box-mobile">
-        <div class="help-text">
-          <small>Need Help?</small>
-          <p>+91 98765 43210</p>
-        </div>
-      </div>
-    </div>
+    </nav>
   </header>
 
   <section class="hero">
