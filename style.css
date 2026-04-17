@@ -604,9 +604,9 @@ i.fa-check {
 
   .main-header {
     position: fixed;
-    top: 10px;
-    left: 14px;
-    right: 14px;
+    top: 15px;
+    left: 20px;
+    right: 20px;
     background: #fff;
     padding: 10px 16px;
     z-index: 9999;
@@ -703,10 +703,8 @@ i.fa-check {
   }
 
   .discover-btn {
-    padding: 5px 5px;
-    font-size: 11px;
-    min-width: 120px;
-    width: fit-content;
+    width: 100%;
+    text-align: center;
   }
 }
 
