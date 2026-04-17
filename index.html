@@ -7,43 +7,61 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-  <section class="hero">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+  <header class="main-header">
+    <div class="container d-flex align-items-center justify-content-between">
   
-      <a class="navbar-brand" href="#">ROUT<span style="color:#8be000;">EX</span></a>
-    
-      <!-- ✅ Hamburger Button -->
-      <button class="navbar-toggler" type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#menu">
+      <!-- Logo -->
+      <div class="logo plane-logo">
+        ✈ Route<span>X</span>
+      </div>
+      <!-- Menu -->
+      <nav class="nav-menu d-none d-lg-flex">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">STORY</a>
+        <a href="#">VISA</a>
+        <a href="#">BLOG</a>
+        <a href="#">PAGE</a>
+        <a href="#">CONTACT</a>
+      </nav>
+  
+      <!-- Right Side (Help Section) -->
+      <div class="help-box d-flex align-items-center gap-2">
+        <div class="chat-icon">
+          <i class="bi bi-chat-dots-fill"></i>
+        </div>
+        <div class="help-text">
+          <small>Need help?</small>
+          <p>(307) 555-0133</p>
+        </div>
+      </div>
+  
+      <!-- Mobile Menu Button -->
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
-      <!-- ✅ Menu -->
-      <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav ms-auto text-center">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Tours</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-        </ul>
-      </div>
-    
-    </nav>
+  
+    </div>
+    </header>
+    <section class="hero">
+      <div class="overlay"></div>
+  
 
     <div class="hero-content">
       <h1>
-        EXPLORE with Confidence <br>
-        <span>JOURNEY</span> with Us
+        Journey with Confidence <br>
+        <span>Migrate</span> with Us
       </h1>
-      <p>Embark on unforgettable adventures tailored just for you.</p>
-      <a href="#" class="discover-btn">Discover More</a>
+      <p>Every journey introduces new places, people, and experiences.It helps us grow, adapt, <br>
+        and see the world differently.Each step adds meaning and unforgettable memories to our life.</p>
+      <a href="#" class="discover-btn">Learn More →</a>
     </div>
   </section>
-  <section class="about">
+  <section class="about" py-5>
     <div class="about-container">
   
       <div class="about-gallery">
@@ -60,31 +78,33 @@
   
       <div class="about-content">
         <span class="tag">ABOUT US ✓</span>
-        <h1>Discover New Horizons <br>– Your Path Awaits</h1>
+        <h1>Unknown Wanderlust  <br> Your Journey into
+        </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Sed sit amet himenaeos. Duis egestas est amet.
+          Travel is the only thing you buy that makes you richer.
+          The world is too big to stay in one place.
+          Life is short and the world is wide.
         </p>
   
         <div class="about-features">
           <div class="feature">
             <span>✔</span>
             <div>
-              <h3>Tailored Itineraries</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>Safety Guides</h3>
+              <p>Your safety is our priority, backed by careful planning and guidance.</p>
             </div>
           </div>
   
           <div class="feature">
             <span>✔</span>
             <div>
-              <h3>Visa Navigation</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>Passport Assistance</h3>
+              <p>We handle all your documents and approval processes with ease.</p>
             </div>
           </div>
         </div>
   
-        <a href="#" class="about-btn">View Profile</a>
+        <a href="#" class="about-btn">Read More</a>
       </div>
   
     </div>
@@ -93,67 +113,105 @@
   <section class="main-banner">
     <div class="container">
       <div class="main-banner-content">
-  
+        
         <div class="text-side">
           <span class="label">OUR SERVICES ⌵</span>
-          <h1>Adventure Unleashed <br> Discover Your Next Journey</h1>
-          <p>Expert itineraries specially crafted...</p>
+          <h1>Adventure Unleashed <br> Discover Your Next </h1>
         </div>
   
         <div class="cards-side">
+          <div class="services-grid">
+  
           <div class="card">
             <div class="icon">🍴</div>
-            <h3>Culinary Expeditions</h3>
-            <p>Food and Wine Tours</p>
+            <h3>Food and Wine Tours</h3>
+            <p>Discover handpicked culinary journeys in world-class destinations. Savor authentic dishes, experience diverse traditions, and indulge in unforgettable dining moments.</p>
           </div>
   
           <div class="card">
             <div class="icon">✈️</div>
-            <h3>Tailored Corporate</h3>
-            <p>Travel Solutions</p>
+            <h3>Travel Opportunities</h3>
+            <p>Explore personalized travel experiences crafted just for you. We ensure every journey is seamless, secure, and filled with memorable adventures across the globe.</p>
+          </div>
+
+          <div class="card">
+            <div class="icon"><i class="bi bi-globe"></i></div>
+            <h3>Solo Travel Planning</h3>
+            <p>Independent travel planning involves designing your own journey with flexibility and freedom. It lets you explore new places on your terms while enjoying a personalized and comfortable travel experience.</p>
           </div>
         </div>
   
       </div>
     </div>
+  </div>
     
   </section>
 
 
   <footer class="footer">
-    <div class="container footer-grid">
-  
-      <div>
-        <h2 class="logo">RouteX</h2>
-        <p>Expert itineraries crafted...</p>
-      </div>
-  
-      <div>
-        <h3>Service Menu</h3>
-        <ul>
-          <li>Destinations & Visa</li>
-          <li>Tours</li>
-        </ul>
-      </div>
-  
-      <div>
-        <h3>Useful Link</h3>
-        <ul>
-          <li>Latest News</li>
-          <li>Careers</li>
-        </ul>
-      </div>
-  
-      <div>
-        <h3>Gallery</h3>
-        <div class="gallery-grid">
-          <img src="https://i.pinimg.com/736x/d8/4a/75/d84a7561a3d5d4f7456129530cc47cfc.jpg">
-          <img src="https://i.pinimg.com/1200x/4f/fd/8d/4ffd8dbefb96306051c5f67a886af142.jpg">
-          <img src="https://i.pinimg.com/736x/3a/4d/24/3a4d24192ab2603ffe2f9f569a1a0270.jpg">
-          <img src="https://i.pinimg.com/736x/e3/28/2c/e3282c09ab7c52a00ae92b8c03b25905.jpg">
+    <div class="footer-container">
+
+      <div class="footer-about">
+        <div class="logo-1 logo-2">
+          ✈ Route<span>X</span>
+        </div>
+        <!-- Menu -->
+
+        <p>
+          Corporate business typically refers to large-scale mansola it enterprises
+          or organizat
+        </p>
+
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
       </div>
-  
+
+      <div class="footer-links">
+        <h3>Service Menu</h3>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-check"></i> Mistakes To Avoid</a></li>  
+          <li><a href="#"><i class="fa-solid fa-check"></i> Your Startup</a></li>  
+          <li><a href="#"><i class="fa-solid fa-check"></i> Knew About Fonts</a></li>  
+          <li><a href="#"><i class="fa-solid fa-check"></i> Knew About Fonts</a></li>  
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h3>Useful Link</h3>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-check"></i> Mistakes To Avoid</a></li>  
+          <li><a href="#"><i class="fa-solid fa-check"></i> Careers</a></li>  
+          <li><a href="#"><i class="fa-solid fa-check"></i> General Inquiries</a></li>  
+          <li><a href="#"><i class="fa-solid fa-check"></i> Case Studies</a></li>  
+        </ul>
+      </div>
+
+      <div class="footer-gallery">
+        <h3>Gallery</h3>
+        <div class="gallery-grid">
+          <img src="https://i.pinimg.com/736x/cf/60/be/cf60bede2844f0680c46647d74d1c71e.jpg" alt="Beach">
+          <img src="https://i.pinimg.com/736x/10/ef/4f/10ef4fbb36b427ea47addfc196747e99.jpg" alt="Mountain lake">
+          <img src="https://i.pinimg.com/736x/96/a1/d7/96a1d73876ab964991f1d0944817cf01.jpg" alt="Lake house">
+          <img src="https://i.pinimg.com/736x/51/2c/02/512c0267fde7936709affaba21fba97a.jpg" alt="Desert road">
+          <img src="https://i.pinimg.com/1200x/ec/cf/d1/eccfd1c9ce9fd45320c29e773a28794b.jpg" alt="Old town">
+          <img src="https://i.pinimg.com/736x/b1/ab/6e/b1ab6ee114065a6528cc55a3ee01531e.jpg" alt="Hills">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© RRDevs 2024 | All Rights Reserved</p>
+
+      <div class="footer-bottom-links">
+        <a href="#">Terams & Condition</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Contact Us</a>
+      </div>
     </div>
   </footer>
 
