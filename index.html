@@ -14,21 +14,9 @@
 
   <header class="main-header">
     <div class="container d-flex align-items-center justify-content-between">
-      <div class="logo plane-logo">
+      <div class="plane-logo">
         ✈ Route<span>X</span>
       </div>
-  
-      <button
-      class="navbar-toggler d-lg-none"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#mobileMenu"
-      aria-controls="mobileMenu"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
   
       <nav class="nav-menu d-none d-lg-flex">
         <a href="#">HOME</a>
@@ -49,10 +37,19 @@
           <p>(307) 555-0133</p>
         </div>
       </div>
+  
+      <button class="navbar-toggler d-lg-none" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mobileMenu"
+        aria-controls="mobileMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
   
     <div class="collapse d-lg-none" id="mobileMenu">
-      <div class="mobile-menu p-3">
+      <div class="mobile-menu">
         <a href="#">HOME</a>
         <a href="#">ABOUT US</a>
         <a href="#">STORY</a>
@@ -60,6 +57,16 @@
         <a href="#">BLOG</a>
         <a href="#">PAGE</a>
         <a href="#">CONTACT</a>
+  
+        <div class="help-box-mobile">
+          <div class="chat-icon">
+            <i class="bi bi-chat-dots-fill"></i>
+          </div>
+          <div class="help-text">
+            <small>Need help?</small>
+            <p>(307) 555-0133</p>
+          </div>
+        </div>
       </div>
     </div>
   </header>
