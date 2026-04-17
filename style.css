@@ -83,19 +83,29 @@ img {
 }
 
 .navbar-toggler {
-  display: none;
-  font-size: 26px;
-  background: #0000;
-  border: 1px solid #0000;
-  width: 42px;
-  height: 42px;
-  border-radius: 8px;
-  color: #0000;
-  cursor: pointer;
+  display: block;
+  background: transparent;
+  border: none;
+  box-shadow: none !important;
+  color: #1b3d2f; /* visible color */
 }
+
 .navbar-toggler-icon {
-  width: 1.3em;
-  height: 1.3em;
+  width: 28px;
+  height: 2px;
+  background-color: #1b3d2f; /* main line */
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 28px;
+  height: 2px;
+  background-color: #1b3d2f; /* top and bottom lines */
 }
 
 .mobile-menu {
@@ -662,62 +672,12 @@ i.fa-check {
     display: none !important;
   }
 
-  .navbar-toggler {
-    display: block;
-    border: none;
-    background: transparent;
-    box-shadow: none !important;
-     border: 1px solid #ddd !important;
-  }
+
   
   .navbar-toggler:focus {
     box-shadow: none !important;
   }
-  
-  .navbar-toggler-icon {
-    background-image: none;
-    width: 28px;
-    height: 2px;
-   
-    position: relative;
-    display: inline-block;
-  }
-  
-  .navbar-toggler-icon::before,
-  .navbar-toggler-icon::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 28px;
-    height: 2px;
-    
-  }
-  
-  .navbar-toggler-icon::before {
-    top: -8px;
-  }
-  
-  .navbar-toggler-icon::after {
-    top: 8px;
-  }
-  
-  .mobile-menu {
-    background: #fff;
-    padding: 15px 20px 20px;
-    border-top: 1px solid #eee;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-  
-  .mobile-menu a {
-    text-decoration: none;
-    color: #1b3d2f;
-    font-weight: 600;
-    padding: 8px 0;
-  }
-
-}
+ }
 
 @media (max-width: 575px) {
   .hero-content h1 {
@@ -744,47 +704,3 @@ i.fa-check {
   }
 }
 
-.navbar-toggler{
-  border: none;
-  box-shadow: none !important;
-}
-
-.navbar-toggler-icon{
-  background-image: none;
-  width: 28px;
-  height: 2px;
-  
-  position: relative;
-  display: inline-block;
-}
-
-.navbar-toggler-icon::before,
-.navbar-toggler-icon::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 28px;
-  height: 2px;
-  
-}
-
-.navbar-toggler-icon::before{
-  top: -8px;
-}
-
-.navbar-toggler-icon::after{
-  top: 8px;
-}
-
-.mobile-menu{
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.mobile-menu a{
-  text-decoration: none;
-  color: #000;
-  font-weight: 600;
-}
