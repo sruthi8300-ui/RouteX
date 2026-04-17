@@ -11,62 +11,43 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-
   <header class="main-header">
-    <div class="container d-flex align-items-center justify-content-between">
-      <div class="plane-logo">
-        ✈ Route<span>X</span>
-      </div>
+    <div class="container">
+      <a href="#" class="plane-logo">
+        <i class="fa-solid fa-plane"></i> Route<span>X</span>
+      </a>
   
-      <nav class="nav-menu d-none d-lg-flex">
-        <a href="#">HOME</a>
-        <a href="#">ABOUT US</a>
-        <a href="#">STORY</a>
-        <a href="#">VISA</a>
-        <a href="#">BLOG</a>
-        <a href="#">PAGE</a>
-        <a href="#">CONTACT</a>
+      <nav class="nav-menu desktop-menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Pages</a>
+        <a href="#">Contact</a>
       </nav>
   
-      <div class="help-box d-none d-lg-flex align-items-center gap-2">
-        <div class="chat-icon">
-          <i class="bi bi-chat-dots-fill"></i>
-        </div>
+      <div class="help-box">
         <div class="help-text">
-          <small>Need help?</small>
-          <p>(307) 555-0133</p>
+          <small>Need Help?</small>
+          <p>+91 98765 43210</p>
         </div>
       </div>
   
-      <button class="navbar-toggler d-lg-none" type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#mobileMenu"
-        aria-controls="mobileMenu"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
+      <button class="navbar-toggler" id="menuToggle" aria-label="Toggle menu">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+    </div>
   
-    <div class="collapse d-lg-none" id="mobileMenu">
-      <div class="mobile-menu">
-        <a href="#">HOME</a>
-        <a href="#">ABOUT US</a>
-        <a href="#">STORY</a>
-        <a href="#">VISA</a>
-        <a href="#">BLOG</a>
-        <a href="#">PAGE</a>
-        <a href="#">CONTACT</a>
-        </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Pages</a>
+      <a href="#">Contact</a>
   
-        <div class="help-box-mobile">
-          <div class="chat-icon">
-            <i class="bi bi-chat-dots-fill"></i>
-          </div>
-          <div class="help-text">
-            <small>Need help?</small>
-            <p>(307) 555-0133</p>
-          </div>
+      <div class="help-box-mobile">
+        <div class="help-text">
+          <small>Need Help?</small>
+          <p>+91 98765 43210</p>
         </div>
       </div>
     </div>
