@@ -680,3 +680,48 @@ i.fa-check {
     gap: 14px;
   }
 }
+
+.navbar-toggler{
+  border: none;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon{
+  background-image: none;
+  width: 28px;
+  height: 2px;
+  background-color: #000;
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 28px;
+  height: 2px;
+  background-color: #000;
+}
+
+.navbar-toggler-icon::before{
+  top: -8px;
+}
+
+.navbar-toggler-icon::after{
+  top: 8px;
+}
+
+.mobile-menu{
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.mobile-menu a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
