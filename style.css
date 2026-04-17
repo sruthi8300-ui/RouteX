@@ -22,12 +22,13 @@ img {
   width: 100%;
   z-index: 2000;
   border-bottom: 1px solid #eee;
-
+}
+.navbar {
+  background: #fff;
 }
 
-.navbar {
-  padding: 15px 40px;
-  color: #1b3d2f;
+.navbar-toggler {
+  display: none;
 }
 
 .navbar a {
@@ -115,34 +116,6 @@ img {
 .navbar-toggler:focus {
   outline: none;
   box-shadow: none !important;
-}
-
-.navbar-toggler-icon {
-  width: 24px;
-  height: 2px;
-  background-color: #1b3d2f;
-  position: relative;
-  display: block;
-  border-radius: 2px;
-}
-
-.navbar-toggler-icon::before,
-.navbar-toggler-icon::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 24px;
-  height: 2px;
-  background-color: #1b3d2f;
-  border-radius: 2px;
-}
-
-.navbar-toggler-icon::before {
-  top: -7px;
-}
-
-.navbar-toggler-icon::after {
-  top: 7px;
 }
 
 
@@ -568,6 +541,21 @@ i.fa-check {
 }
 
 @media (max-width: 991px) {
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding-top: 15px;
+  }
+
+  .help-box {
+    display: none;
+  }
 
   .navbar {
     padding: 15px 20px;
