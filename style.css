@@ -85,12 +85,12 @@ img {
 .navbar-toggler {
   display: none;
   font-size: 26px;
-  background: #fff;
+  background: #0000;
   border: 1px solid #0000;
   width: 42px;
   height: 42px;
   border-radius: 8px;
-  color: #777;
+  color: #0000;
   cursor: pointer;
 }
 .navbar-toggler-icon {
