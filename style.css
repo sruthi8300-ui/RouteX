@@ -83,12 +83,16 @@ img {
 }
 
 .navbar-toggler {
-  border: 1px solid #ddd !important;
-  padding: 10px 12px !important;
-  box-shadow: none !important;
   display: none;
+  font-size: 26px;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  color: #777;
+  cursor: pointer;
 }
-
 .navbar-toggler-icon {
   width: 1.3em;
   height: 1.3em;
