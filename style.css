@@ -507,7 +507,74 @@ i.fa-check {
 
 /* ================= MOBILE RESPONSIVE ================= */
 
-/* ================= MOBILE RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .main-header {
+    padding: 22px 22px;
+    background: #fff;
+    border-bottom: none;
+  }
+
+  .plane-logo {
+    font-size: 34px;
+    font-weight: 800;
+    color: #0a4f3c;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .plane-logo span {
+    color: #0a4f3c;
+  }
+
+  .nav-menu,
+  .help-box {
+    display: none !important;
+  }
+
+  .hero {
+    min-height: 100vh;
+    background-position: center;
+  }
+
+  .hero-content {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 140px 28px 60px;
+  }
+
+  .hero-content h1 {
+    font-size: 62px;
+    line-height: 1.05;
+    font-weight: 800;
+    margin-bottom: 24px;
+    letter-spacing: -1px;
+  }
+
+  .hero-content h1 span {
+    color: #61b403;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #f4f4f4;
+    max-width: 700px;
+    margin: 0 auto 34px;
+  }
+
+  .discover-btn {
+    display: inline-block;
+    background: #61b403;
+    color: #fff;
+    padding: 18px 42px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
 
 @media (max-width: 992px) {
   .main-header {
