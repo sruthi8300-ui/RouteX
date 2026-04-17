@@ -53,7 +53,7 @@ img {
   text-decoration: none;
 }
 
-.logo-1 span {
+.logo span {
   color: #8be000;
 }
 
@@ -194,25 +194,31 @@ img {
 }
 
 .about {
-  padding: 70px 20px;
   background: #fff;
+  padding-right: 250px;
+  
 }
 
 .about-container {
-  max-width: 1100px;
-  margin: 0 auto;
+  max-width: 1500px;
   display: flex;
-  align-items: center;
-  gap: 50px;
+  align-items:center;
+  gap:200px;
+  padding-top: 50px;
+  justify-content: space-around;
+  
+ 
 }
 
 .about-gallery {
-  width: 440px;
-  display: grid;
-  grid-template-columns: 180px 180px;
-  grid-template-rows: 180px 180px;
+   margin-left: 0;
+   display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
   gap: 10px;
   flex-shrink: 0;
+  padding-bottom: 50px;
+
 }
 
 .img {
@@ -220,22 +226,27 @@ img {
   height: 100%;
   object-fit: cover;
   border-radius: 16px;
+  margin-left: 170px;
+ 
 }
 
 .experience-box {
   background: #61b403;
-  border-radius: 16px;
+  border-radius: 26px;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-  padding: 18px;
+ padding: 100px;
+ margin-left: 170px;
+  
+
 }
 
 .experience-box h2 {
-  font-size: 36px;
+  font-size: 45px;
   margin-bottom: 6px;
   font-weight: 800;
 }
@@ -248,11 +259,14 @@ img {
 }
 
 .about-content {
-  max-width: 460px;
+  
+  padding-left: 200px;
+  
+ 
 }
 
 .tag {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 900;
   color: #61b403;
   display: inline-block;
@@ -261,7 +275,7 @@ img {
 }
 
 .about-content h1 {
-  font-size: calc(1.325rem + .9vw);
+  font-size: 50px;
   line-height: 1.15;
   color: #153b34;
   margin-bottom: 14px;
@@ -380,6 +394,10 @@ img {
   font-size: 28px;
 }
 
+.icon i {
+  color: #ffff;
+  font-size: 28px;
+}
 .card h3 {
   font-size: 22px;
   color: #123c31;
