@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Miranda Sans;
 }
 
 body {
@@ -35,14 +35,14 @@ img {
   gap: 20px;
 }
 
-.plane-logo {
+.logo {
   font-size: 24px;
   font-weight: 700;
   color: #0a4f3c;
   text-decoration: none;
 }
 
-.plane-logo span {
+.logo-1 span {
   color: #8be000;
 }
 
@@ -94,8 +94,8 @@ img {
   box-shadow: none !important;
   cursor: pointer;
   padding: 8px;
-  width: 30px;
-  height: 30px;
+  width: 44px;
+  height: 44px;
   align-items: center;
   justify-content: center;
 }
