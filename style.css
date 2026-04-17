@@ -564,6 +564,9 @@ i.fa-check {
   .footer-container {
     grid-template-columns: repeat(2, 1fr);
   }
+   .help-box {
+    display: none !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -641,7 +644,7 @@ i.fa-check {
 
   .discover-btn {
     width: auto;
-    padding: 9px 16px;
+    padding: 9px 9px;
     font-size: 12px;
     border-radius: 999px;
   }
@@ -651,8 +654,8 @@ i.fa-check {
     width: 42px;
     height: 42px;
     padding: 0 !important;
-    border: 1px solid #ddd !important;
-    background: #fff !important;
+    border: 1px solid #0000 !important;
+    background: #0000 !important;
     border-radius: 8px;
     position: relative;
     z-index: 3000;
