@@ -613,6 +613,10 @@ i.fa-check {
 }
 
 @media (max-width: 767px) {
+  body{
+
+    font-family: Miranda Sans;
+    }
   .desktop-menu {
     display: none;
   }
