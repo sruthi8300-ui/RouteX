@@ -147,7 +147,7 @@ img {
 }
 
 .hero-content h1 {
-  font-size: clamp(2.4rem, 6vw, 4.8rem);
+  font-size: 60px;
   line-height: 1.1;
   font-weight: 800;
   margin-bottom: 18px;
@@ -250,7 +250,7 @@ img {
 }
 
 .about-content h1 {
-  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-size: calc(1.325rem + .9vw);
   line-height: 1.15;
   color: #153b34;
   margin-bottom: 14px;
@@ -515,6 +515,20 @@ img {
   color: #8fd14f;
 }
 
+.fa-check{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #8fd14f;
+  display: inline-block;
+  flex: 0 0 8px;
+}
+
+i.fa-check {
+  color: #8fd14f;
+  font-size: 12px;
+}
+
 @media (max-width: 991px) {
   .main-header {
     padding: 15px 20px;
@@ -624,6 +638,34 @@ img {
     width: 100%;
     height: 90px;
   }
+
+  .discover-btn {
+    width: auto;
+    padding: 10px 18px;
+    font-size: 12px;
+    border-radius: 999px;
+  }
+
+  .navbar-toggler {
+    display: block !important;
+    width: 42px;
+    height: 42px;
+    padding: 0 !important;
+    border: 1px solid #ddd !important;
+    background: #fff !important;
+    border-radius: 8px;
+    position: relative;
+    z-index: 3000;
+  }
+
+  .navbar-toggler-icon {
+    display: inline-block !important;
+    width: 22px;
+    height: 22px;
+    background-size: 22px 22px;
+  }
+
+
 }
 
 @media (max-width: 575px) {
