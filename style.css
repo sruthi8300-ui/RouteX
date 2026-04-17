@@ -20,10 +20,12 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #ffffff;
-  padding: 15px 40px;
   z-index: 2000;
   border-bottom: 1px solid #eee;
+}
+
+.navbar {
+  padding: 15px 40px;
 }
 
 .main-header .container {
@@ -84,27 +86,33 @@ img {
   color: #1b3d2f;
 }
 
+
 .navbar-toggler {
   display: none;
   background: transparent;
   border: none;
   box-shadow: none !important;
-  color: #1b3d2f;
   cursor: pointer;
-  padding: 6px;
+  padding: 8px;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
 }
 
+
 .navbar-toggler:focus {
-  box-shadow: none !important;
   outline: none;
+  box-shadow: none !important;
 }
 
 .navbar-toggler-icon {
-  width: 28px;
+  width: 24px;
   height: 2px;
   background-color: #1b3d2f;
   position: relative;
-  display: inline-block;
+  display: block;
+  border-radius: 2px;
 }
 
 .navbar-toggler-icon::before,
@@ -112,40 +120,20 @@ img {
   content: "";
   position: absolute;
   left: 0;
-  width: 28px;
+  width: 24px;
   height: 2px;
   background-color: #1b3d2f;
+  border-radius: 2px;
 }
 
 .navbar-toggler-icon::before {
-  top: -8px;
+  top: -7px;
 }
 
 .navbar-toggler-icon::after {
-  top: 8px;
+  top: 7px;
 }
 
-.mobile-menu {
-  display: none;
-  background: #fff;
-  border-top: 1px solid #eee;
-  padding: 15px 20px 20px;
-}
-
-.mobile-menu.active {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.mobile-menu a {
-  display: block;
-  padding: 12px 0;
-  text-decoration: none;
-  color: #1b3d2f;
-  font-weight: 600;
-  border-bottom: 1px solid #f1f1f1;
-}
 
 .help-box-mobile {
   display: none;
@@ -569,6 +557,10 @@ i.fa-check {
 }
 
 @media (max-width: 991px) {
+
+  .navbar {
+    padding: 15px 20px;
+  }
   .main-header {
     padding: 15px 20px;
   }
@@ -615,11 +607,11 @@ i.fa-check {
   }
 
   .navbar-toggler {
-    display: block;
+    display: flex;
   }
 
   .help-box-mobile {
-    display: flex;
+    display: none !important; 
   }
 
   .hero {
@@ -695,7 +687,7 @@ i.fa-check {
   }
 
   .discover-btn {
-    padding: 7px 12px;
+    padding: 5px 5px;
     font-size: 11px;
     min-width: 120px;
     width: fit-content;
