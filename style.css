@@ -83,7 +83,7 @@ img {
 }
 
 .navbar-toggler {
-  display: block;
+  display: none;
   background: transparent;
   border: none;
   box-shadow: none !important;
