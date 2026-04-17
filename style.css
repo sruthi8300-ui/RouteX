@@ -99,7 +99,7 @@ img {
 }
 
 .mobile-menu {
-  background: #fff;
+  background: #0000;
   border-top: 1px solid #0000;
   padding: 15px 20px 20px;
 }
@@ -114,7 +114,7 @@ img {
 }
 
 .help-box-mobile {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 12px;
   padding-top: 18px;
