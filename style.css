@@ -565,7 +565,7 @@ i.fa-check {
   }
 
   .hero-content h1 {
-    font-size: clamp(2rem, 8vw, 3.4rem);
+    font-size: clamp(3rem, 9vw, 4.4rem);
   }
 
   .about-container {
@@ -600,7 +600,23 @@ i.fa-check {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+
+  .main-header {
+    position: fixed;
+    top: 10px;
+    left: 14px;
+    right: 14px;
+    background: #fff;
+    padding: 10px 16px;
+    z-index: 9999;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
+  }
+
+  .main-header .container {
+    width: 100%;
+  }
+
   .desktop-menu {
     display: none;
   }
@@ -620,6 +636,7 @@ i.fa-check {
   .hero-content {
     min-height: 90vh;
     padding-top: 0;
+    font-size: 16px;
   }
 
   .hero-content p {
