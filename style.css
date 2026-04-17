@@ -565,6 +565,9 @@ i.fa-check {
   .footer-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .help-box {
+    display: none !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -669,7 +672,7 @@ i.fa-check {
     background-image: none;
     width: 28px;
     height: 2px;
-    background-color: #111;
+   
     position: relative;
     display: inline-block;
   }
@@ -681,7 +684,7 @@ i.fa-check {
     left: 0;
     width: 28px;
     height: 2px;
-    background-color: #111;
+    
   }
   
   .navbar-toggler-icon::before {
@@ -744,7 +747,7 @@ i.fa-check {
   background-image: none;
   width: 28px;
   height: 2px;
-  background-color: #000;
+  
   position: relative;
   display: inline-block;
 }
@@ -756,7 +759,7 @@ i.fa-check {
   left: 0;
   width: 28px;
   height: 2px;
-  background-color: #000;
+  
 }
 
 .navbar-toggler-icon::before{
