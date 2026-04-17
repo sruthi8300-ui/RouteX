@@ -784,3 +784,58 @@ i.fa-check {
     gap: 16px;
   }
 }
+
+.mobile-menu-btn {
+  display: none;
+}
+
+/* MOBILE ONLY */
+@media (max-width: 767px) {
+  .main-header {
+    padding: 0;
+    background: #fff;
+    border-bottom: none;
+  }
+
+  .main-header .container {
+    height: 92px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .nav-menu,
+  .help-box,
+  .navbar-toggler {
+    display: none !important;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    color: #0a4f3c;
+    font-size: 34px;
+    padding: 0;
+    line-height: 1;
+  }
+
+  .plane-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #0a4f3c;
+  }
+
+  .plane-logo i {
+    font-size: 32px;
+    color: #0a4f3c;
+  }
+
+  .plane-logo span {
+    color: #0a4f3c;
+  }
+}
