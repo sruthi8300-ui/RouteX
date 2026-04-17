@@ -22,10 +22,17 @@ img {
   width: 100%;
   z-index: 2000;
   border-bottom: 1px solid #eee;
+
 }
 
 .navbar {
   padding: 15px 40px;
+  color: #1b3d2f;
+}
+
+.navbar a {
+  color: #1b3d2f;
+  font-weight: 600;
 }
 
 .main-header .container {
@@ -73,8 +80,8 @@ img {
 }
 
 .help-text small {
-  font-size: 12px;
-  color: #777;
+  font-size: 15px;
+  color: #393838;
   display: block;
   line-height: 1;
 }
