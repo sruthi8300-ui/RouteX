@@ -564,6 +564,10 @@ i.fa-check {
 }
 
 @media (max-width: 991px) {
+  body{
+
+  font-family: Miranda Sans;
+  }
 
   .navbar {
     padding: 15px 20px;
