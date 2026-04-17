@@ -655,12 +655,58 @@ i.fa-check {
   }
 
   .navbar-toggler {
-    border: 1px solid #ddd !important;
-    padding: 10px 12px !important;
+    display: block;
+    border: none;
+    background: transparent;
     box-shadow: none !important;
-  
   }
-
+  
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: none;
+    width: 28px;
+    height: 2px;
+    background-color: #111;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 28px;
+    height: 2px;
+    background-color: #111;
+  }
+  
+  .navbar-toggler-icon::before {
+    top: -8px;
+  }
+  
+  .navbar-toggler-icon::after {
+    top: 8px;
+  }
+  
+  .mobile-menu {
+    background: #fff;
+    padding: 15px 20px 20px;
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .mobile-menu a {
+    text-decoration: none;
+    color: #1b3d2f;
+    font-weight: 600;
+    padding: 8px 0;
+  }
 
 }
 
