@@ -86,7 +86,7 @@ img {
   border: 1px solid #ddd !important;
   padding: 10px 12px !important;
   box-shadow: none !important;
-  display: none; !important
+  display: none !important;
 }
 
 .navbar-toggler-icon {
@@ -652,6 +652,13 @@ i.fa-check {
   }
   .help-box {
     display: none !important;
+  }
+
+  .navbar-toggler {
+    border: 1px solid #ddd !important;
+    padding: 10px 12px !important;
+    box-shadow: none !important;
+  
   }
 
 
