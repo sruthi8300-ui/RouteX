@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Miranda Sans;
+ 
 }
 
 body {
@@ -33,6 +33,9 @@ img {
 .navbar a {
   color: #1b3d2f;
   font-weight: 600;
+}
+.navbar-nav {
+  gap: 20px;
 }
 
 .main-header .container {
@@ -69,6 +72,7 @@ img {
   color: #1b3d2f;
   font-size: 14px;
   font-weight: 600;
+  gap: 2px;
 }
 
 .nav-menu a:hover {
@@ -564,10 +568,6 @@ i.fa-check {
 }
 
 @media (max-width: 991px) {
-  body{
-
-  font-family: Miranda Sans;
-  }
 
   .navbar {
     padding: 15px 20px;
@@ -613,10 +613,6 @@ i.fa-check {
 }
 
 @media (max-width: 767px) {
-  body{
-
-    font-family: Miranda Sans;
-    }
   .desktop-menu {
     display: none;
   }
