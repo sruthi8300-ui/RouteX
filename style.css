@@ -677,12 +677,14 @@ i.fa-check {
   }
 
   .about {
-    padding: 0  15px;
+    padding: 0 15px 20px;
     
   }
 
   .about-container {
-    gap: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
   }
 
   .about-gallery {
@@ -691,12 +693,12 @@ i.fa-check {
     gap: 8px;
     padding: 0;
     margin: 0 auto;
-    justify-content: center;
+    
   }
 
   .experience-box {
     border-radius: 18px;
-    padding-bottom: 10px;
+    padding: 20px 10px;
   }
 
   .experience-box h2 {
