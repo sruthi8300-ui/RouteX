@@ -691,7 +691,7 @@ i.fa-check {
   .about-container {
     flex-direction: column;
     align-items: flex-start;
-    gap: 18px;
+    gap: 6px;
     padding: 0;
   }
 
