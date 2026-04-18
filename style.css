@@ -677,14 +677,16 @@ i.fa-check {
   }
 
   .about {
-    padding: 50px 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
   }
 
   .about-gallery {
     grid-template-columns: 140px 140px;
     grid-template-rows: 140px 140px;
     gap: 8px;
-   
+    padding-top: 0;
+    margin-top: 0;
     justify-content: center;
     margin: 0 auto;
   }
@@ -703,6 +705,10 @@ i.fa-check {
 
   .img {
     border-radius: 12px;
+  }
+  .about-content {
+    margin-top: 0;
+    padding-top: 0;
   }
 
 
