@@ -687,10 +687,11 @@ i.fa-check {
   }
 
   .about-container {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px !important;
-    padding: 0;
+    gap: 18px;
+    padding: 0 15px;
   }
 
   .about-gallery {
@@ -728,29 +729,32 @@ i.fa-check {
   }
   .about-content {
     width: 100%;
-    margin: 0 !important;
     padding: 0;
-    text-align: left;
+    margin: 0;
+  }
+  .about-content .tag {
+    font-size: 14px;
+    margin-bottom: 6px;
   }
 
 
   .about-content h1 {
     font-size: 2rem;
     line-height: 1.2;
-    margin-top: 0 !important;
-    margin-bottom: 16px;
+    margin: 0 0 14px;
   }
 
   .about-content p {
     font-size: 16px;
-    gap: 14px;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+    line-height: 1.6;
+    margin: 0 0 18px;
   }
 
   .about-features {
+    display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-bottom: 20px;
   }
 
   .feature {
@@ -791,15 +795,8 @@ i.fa-check {
   }
 
   .discover-btn {
-    text-decoration: none;
-    background: #61b403;
-    color: white;
-    padding: 10px 25px;
-    border-radius: 999px;
-    font-size: 15px;
-    font-weight: 700;
-    transition: 0.2s;
-    text-align: center;
+    display: inline-block;
+    width: fit-content;
   }
 }
 
