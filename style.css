@@ -645,10 +645,10 @@ i.fa-check {
   .main-header {
     position: fixed;
     top: 0;
-    background: #fff;
-    padding: 0;
-    z-index: 9999;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
+    width: 100%;
+    z-index: 2000;
+    border-bottom: 1px solid #eee;
+    
   }
 
   .main-header .container {
@@ -696,7 +696,7 @@ i.fa-check {
   }
 
   .experience-box {
-    padding: 40px;
+    padding: 10px;
     border-radius: 18px;
   }
 
