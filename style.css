@@ -677,12 +677,12 @@ i.fa-check {
   }
 
   .about {
-    padding: 0 15px 20px;
+    padding: 0 10px 15px;
     
   }
 
   .about-container {
-    gap: 12px;
+    gap: 20px;
   }
 
   .about-gallery {
@@ -691,6 +691,7 @@ i.fa-check {
     gap: 8px;
     padding: 0;
     margin: 0 auto;
+    justify-content: center;
   }
 
   .experience-box {
