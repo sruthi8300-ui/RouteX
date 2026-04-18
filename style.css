@@ -21,6 +21,7 @@ img {
   width: 100%;
   z-index: 2000;
   border-bottom: 1px solid #eee;
+  
 }
 
 .navbar {
@@ -45,10 +46,11 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  font-size: 20px;
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 70px;
   font-weight: 700;
   color: #0a4f3c;
   text-decoration: none;
@@ -56,16 +58,20 @@ img {
 
 .logo span {
   color: #8be000;
+
 }
+
 
 .plane-logo i {
   margin-right: 8px;
   color: #8be000;
+
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
+  font-size: 40px;
 }
 
 .nav-menu a {
@@ -568,6 +574,17 @@ i.fa-check {
     display: none;
   }
 
+  .discover-btn{
+    text-decoration: none;
+  background: #61b403;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.2s;
+  }
+
   .navbar {
     padding: 15px 20px;
   }
@@ -583,12 +600,24 @@ i.fa-check {
     flex-direction: column;
     align-items: flex-start;
   }
-
-  .about-gallery {
-    width: 100%;
-    max-width: 440px;
-    margin: 0 auto;
-  }
+    .about-gallery {
+      grid-template-columns: 180px 180px;
+      grid-template-rows: 180px 180px;
+      gap: 8px;
+      padding-top: 20px;
+      padding-bottom: 30px;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  
+    .experience-box {
+      padding: 70px;
+    }
+  
+    .experience-box h2 {
+      font-size: 36px;
+    }
+  
 
   .about-content {
     max-width: 100%;
@@ -659,10 +688,32 @@ i.fa-check {
   }
 
   .about-gallery {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 140px 140px;
     grid-template-rows: 140px 140px;
     gap: 8px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    justify-content: center;
+    margin: 0 auto;
   }
+
+  .experience-box {
+    padding: 40px;
+    border-radius: 18px;
+  }
+
+  .experience-box h2 {
+    font-size: 30px;
+  }
+
+  .experience-box p {
+    font-size: 12px;
+  }
+
+  .img {
+    border-radius: 12px;
+  }
+
 
   .about-content h1 {
     font-size: 2rem;
@@ -714,7 +765,14 @@ i.fa-check {
   }
 
   .discover-btn {
-    width: 100%;
+    text-decoration: none;
+    background: #61b403;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.2s;
     text-align: center;
   }
 }
