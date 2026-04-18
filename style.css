@@ -604,14 +604,7 @@ i.fa-check {
     flex-direction: column;
     align-items: flex-start;
   }
-    .about-gallery {
-      grid-template-columns: 180px 180px;
-      grid-template-rows: 180px 180px;
-      gap: 8px;
-      justify-content: center;
-      margin: 0 auto;
-    }
-  
+   
     .experience-box {
       padding: 70px;
     }
@@ -816,14 +809,6 @@ i.fa-check {
   .about-btn {
     width: 100%;
     text-align: center;
-  }
-
-  .about-gallery {
-    width: 100%;
-    max-width: 420px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 180px 180px;
-    gap: 8px;
   }
 
   .experience-box h2 {
