@@ -819,8 +819,11 @@ i.fa-check {
   }
 
   .about-gallery {
+    width: 100%;
+    max-width: 420px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 120px 120px;
+    grid-template-rows: 180px 180px;
+    gap: 8px;
   }
 
   .experience-box h2 {
