@@ -677,7 +677,7 @@ i.fa-check {
   }
 
   .about {
-    padding: 0 10px 15px;
+    padding: 0  15px;
     
   }
 
@@ -701,10 +701,13 @@ i.fa-check {
 
   .experience-box h2 {
     font-size: 30px;
+    justify-content: center;
   }
 
   .experience-box p {
     font-size: 12px;
+    justify-content: center;
+
   }
 
   .img {
