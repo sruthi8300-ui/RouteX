@@ -552,8 +552,16 @@ i.fa-check {
 }
 
 @media (max-width: 991px) {
+
   .navbar-toggler {
     display: block;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding-top: 15px;
   }
 
   .help-box {
@@ -563,7 +571,6 @@ i.fa-check {
   .navbar {
     padding: 15px 20px;
   }
-
   .main-header {
     padding: 15px 20px;
   }
@@ -575,7 +582,6 @@ i.fa-check {
   .about-container {
     flex-direction: column;
     align-items: flex-start;
-    gap: 40px;
   }
 
   .about-gallery {
@@ -586,7 +592,6 @@ i.fa-check {
 
   .about-content {
     max-width: 100%;
-    padding-left: 0;
   }
 
   .services-grid {
@@ -607,6 +612,7 @@ i.fa-check {
 }
 
 @media (max-width: 768px) {
+
   .main-header {
     position: fixed;
     top: 15px;
@@ -620,6 +626,18 @@ i.fa-check {
 
   .main-header .container {
     width: 100%;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: flex;
+  }
+
+  .help-box-mobile {
+    display: none !important; 
   }
 
   .hero {
@@ -644,7 +662,6 @@ i.fa-check {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 140px 140px;
     gap: 8px;
-    padding-bottom: 0;
   }
 
   .about-content h1 {
@@ -700,10 +717,6 @@ i.fa-check {
     width: 100%;
     text-align: center;
   }
-
-  .about-btn {
-    width: auto;
-  }
 }
 
 @media (max-width: 575px) {
@@ -728,18 +741,5 @@ i.fa-check {
 
   .footer-bottom-links {
     gap: 14px;
-  }
-
-  .about-container {
-    align-items: center;
-  }
-
-  .about-content h1 {
-    font-size: 1.9rem;
-  }
-
-  .main-header {
-    left: 10px;
-    right: 10px;
   }
 }
