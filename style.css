@@ -678,7 +678,7 @@ i.fa-check {
 
   .about {
     padding-top: 10px;
-    padding-bottom: 30px;
+    
   }
 
   .about-gallery {
@@ -689,15 +689,12 @@ i.fa-check {
     margin-top: 0;
     justify-content: center;
     margin: 0 auto;
-  }
-
-  .about-gallery,
-  .about-content{
-    gap: 10px;
+    padding-bottom: 10px;
   }
 
   .experience-box {
     border-radius: 18px;
+    padding-bottom: 10px;
   }
 
   .experience-box h2 {
