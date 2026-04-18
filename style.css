@@ -605,7 +605,7 @@ i.fa-check {
       grid-template-rows: 180px 180px;
       gap: 8px;
       padding-top: 20px;
-      padding-bottom: 30px;
+      padding-bottom: 10px;
       justify-content: center;
       margin: 0 auto;
     }
@@ -644,11 +644,9 @@ i.fa-check {
 
   .main-header {
     position: fixed;
-    top: 15px;
-    left: 20px;
-    right: 20px;
+    top: 0;
     background: #fff;
-    padding: 10px 16px;
+    padding: 0;
     z-index: 9999;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
   }
@@ -692,7 +690,7 @@ i.fa-check {
     grid-template-rows: 140px 140px;
     gap: 8px;
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     justify-content: center;
     margin: 0 auto;
   }
