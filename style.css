@@ -278,8 +278,8 @@ img {
 }
 
 .about-content h1 {
-  font-size: 50px;
-  line-height: 1.40;
+  font-size: 4rem;
+  line-height: 1.20;
   color: #153b34;
   margin: 10px 0 20px;
   font-weight: 800;
@@ -684,20 +684,24 @@ i.fa-check {
   }
 
   .about {
-    padding: 0 15px 20px;
+    padding: 20px 15px 30px;
     
   }
 
   .about-container {
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: 18px;
+    padding: 0;
   }
 
   .about-gallery {
-    grid-template-columns: 180px 180px;
-    grid-template-rows: 180px 180px;
-    gap: 10px;
+    width: 100%;
+    max-width: 360px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 140px 140px;
+    gap: 8px;
     padding: 0;
     margin: 0 auto;
     
@@ -705,7 +709,8 @@ i.fa-check {
 
   .experience-box {
     border-radius: 18px;
-    padding: 20px 10px;
+    padding: 18px 12px;
+    border-radius: 18px;
   }
 
   .experience-box h2 {
@@ -723,17 +728,21 @@ i.fa-check {
     border-radius: 12px;
   }
   .about-content {
-   
-   padding-bottom: 30px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
 
   .about-content h1 {
     font-size: 2rem;
+    line-height: 1.2;
+    margin-top: 0;
   }
 
   .about-content p {
     font-size: 16px;
+    gap: 14px;
   }
 
   .about-features {
