@@ -691,6 +691,11 @@ i.fa-check {
     margin: 0 auto;
   }
 
+  .about-gallery,
+  .about-content{
+    gap: 10px;
+  }
+
   .experience-box {
     border-radius: 18px;
   }
